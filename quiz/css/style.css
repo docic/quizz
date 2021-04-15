@@ -1,0 +1,122 @@
+body{
+	font-family: arial;
+	font-size: 15px;
+	line-height: 1.6em;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	border-bottom: 3px solid red;
+	background: 4c7578;
+	border-radius: 10px;
+}
+
+footer{
+	border-top: 3px #f4f4f4f solid;
+	text-align: center;
+	padding-top: 5px;
+}
+main{
+	padding-bottom: 20px;
+	background-image: url("../images/bh.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+label{
+	display: inline-block;
+	width: 180px;
+}
+input[type="text"]{
+	width: 97%;
+	padding: 4px;
+	border-radius: 5px;
+}
+input[type="number"]{
+	width: 50px;
+	padding: 4px;
+	border-radius: 5px;
+}
+.button {
+  background-color: darkred; /* could try and modify it to whatever colour even #4CAF50*/
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+	display:block;
+  font-size: 16px;
+	width: 70%;
+	margin: 20px 20px;
+	border-radius: 8px;
+}
+.menu{
+	width:400px;
+	height: 400px;
+	margin: 20px auto;
+}
+.container{
+	width:60%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+a.start{
+	display: inline-block;
+	color:#666;
+	border: 1px dotted #000;
+	padding: 6px 13px;
+}
+li{
+	list-style: none;
+}
+.current{
+	padding: 10px;
+	background: #f4f4f4;
+	border: #000 dotted 1px;
+	margin: 20px 0 10px 0;
+}
+/* footer css*/
+.social ul{
+	list-style-type: none;
+
+}
+.social ul li {
+	display: inline;
+	padding: 1%;
+}
+.reserved{
+	font-family: "Times New Roman";
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: darkblue;
+}
+
+/*css for paragraph tag*/
+.block-name{
+	font-size: 2rem;
+	color: #747d8c;
+}
+p:hover{
+	color: blue;
+}
+
+/* CSS for logo*/
+.container {
+	width: 90%;
+	margin: 0 auto;
+	padding: 1%;
+}
+.logo-img {
+	float: left;
+	position: relative;
+	margin: 10px 15px 15px 10px;
+	left: 0;
+	display: inline;
+}
